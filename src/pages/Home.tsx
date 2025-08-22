@@ -198,6 +198,127 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
+
+      {/* Partners Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Nos Partenaires de Confiance
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Nous collaborons avec des leaders de l'industrie pour offrir des solutions innovantes
+            </p>
+          </div>
+
+          {/* Partners Carousel */}
+          <div className="relative overflow-hidden">
+            <div className="flex animate-scroll space-x-12 items-center">
+              {/* First set of logos */}
+              <div className="flex space-x-12 items-center min-w-max">
+                <div className="flex items-center justify-center w-40 h-24 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
+                  <img
+                    src="/logo-partenere/BioMerieux18x600.png"
+                    alt="BioMérieux"
+                    className="max-w-full max-h-full object-contain hover:scale-110 transition-all duration-300"
+                  />
+                </div>
+                <div className="flex items-center justify-center w-40 h-24 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
+                  <img
+                    src="/logo-partenere/logo_thermofisher.png"
+                    alt="Thermo Fisher Scientific"
+                    className="max-w-full max-h-full object-contain hover:scale-110 transition-all duration-300"
+                  />
+                </div>
+                <div className="flex items-center justify-center w-40 h-24 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
+                  <img
+                    src="/logo-partenere/EDAN_LOGO20PXL.webp"
+                    alt="EDAN"
+                    className="max-w-full max-h-full object-contain hover:scale-110 transition-all duration-300"
+                  />
+                </div>
+                <div className="flex items-center justify-center w-40 h-24 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
+                  <img
+                    src="/logo-partenere/logo-snibe653233410d9dd6.95992438.png"
+                    alt="SNIBE"
+                    className="max-w-full max-h-full object-contain hover:scale-110 transition-all duration-300"
+                  />
+                </div>
+                <div className="flex items-center justify-center w-40 h-24 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
+                  <img
+                    src="/logo-partenere/logo_biomnis.jpg"
+                    alt="Biomnis"
+                    className="max-w-full max-h-full object-contain hover:scale-110 transition-all duration-300"
+                  />
+                </div>
+                <div className="flex items-center justify-center w-40 h-24 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
+                  <img
+                    src="/logo-partenere/oxoidlogo.png"
+                    alt="Oxoid"
+                    className="max-w-full max-h-full object-contain hover:scale-110 transition-all duration-300"
+                  />
+                </div>
+              </div>
+
+              {/* Duplicate set for seamless loop */}
+              <div className="flex space-x-12 items-center min-w-max">
+                <div className="flex items-center justify-center w-40 h-24 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
+                  <img
+                    src="/logo-partenere/BioMerieux18x600.png"
+                    alt="BioMérieux"
+                    className="max-w-full max-h-full object-contain hover:scale-110 transition-all duration-300"
+                  />
+                </div>
+                <div className="flex items-center justify-center w-40 h-24 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
+                  <img
+                    src="/logo-partenere/logo_thermofisher.png"
+                    alt="Thermo Fisher Scientific"
+                    className="max-w-full max-h-full object-contain hover:scale-110 transition-all duration-300"
+                  />
+                </div>
+                <div className="flex items-center justify-center w-40 h-24 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
+                  <img
+                    src="/logo-partenere/EDAN_LOGO20PXL.webp"
+                    alt="EDAN"
+                    className="max-w-full max-h-full object-contain hover:scale-110 transition-all duration-300"
+                  />
+                </div>
+                <div className="flex items-center justify-center w-40 h-24 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
+                  <img
+                    src="/logo-partenere/logo-snibe653233410d9dd6.95992438.png"
+                    alt="SNIBE"
+                    className="max-w-full max-h-full object-contain hover:scale-110 transition-all duration-300"
+                  />
+                </div>
+                <div className="flex items-center justify-center w-40 h-24 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
+                  <img
+                    src="/logo-partenere/logo_biomnis.jpg"
+                    alt="Biomnis"
+                    className="max-w-full max-h-full object-contain hover:scale-110 transition-all duration-300"
+                  />
+                </div>
+                <div className="flex items-center justify-center w-40 h-24 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
+                  <img
+                    src="/logo-partenere/oxoidlogo.png"
+                    alt="Oxoid"
+                    className="max-w-full max-h-full object-contain hover:scale-110 transition-all duration-300"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center mt-8">
+            <Link
+              to="/partners"
+              className="inline-flex items-center px-6 py-3 border border-emma-blue-500 text-emma-blue-500 font-medium rounded-lg hover:bg-emma-blue-500 hover:text-white transition-colors duration-200"
+            >
+              Découvrir tous nos partenaires
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </Link>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
